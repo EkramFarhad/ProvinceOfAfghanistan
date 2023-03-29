@@ -1,9 +1,16 @@
+package src;
+
+import Kabul.Kabul;
+
 public class Main {
     public static void main(String[] args) {
 
         Kabul kabul = new Kabul();
-        kabul.name = "KABUL";
-        kabul.capital= "Of Afghanistan";
-        kabul.population= 1234567;
+        Herat herat = new Herat();
+        herat.capital = "HeratCity";
+        herat.name = "HeratJan";
+        herat.population = "1234567";
+
+
     }
 }
